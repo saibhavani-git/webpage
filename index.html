@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Sai Bhavani - Personal Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="./style.css" rel="stylesheet">
+        <script>
+            if (localStorage.getItem('dark-mode') === 'false' || !('dark-mode' in localStorage)) {
+                document.querySelector('html').classList.remove('dark');
+            } else {
+                document.querySelector('html').classList.add('dark');
+            }
+        </script>
+    </head>
+
+    <body class="font-inter antialiased bg-gray-50 text-gray-800 dark:bg-gray-950 dark:text-gray-100 tracking-tight">
+        <div class="overflow-hidden supports-[overflow:clip]:overflow-clip">
+            <div class="max-w-[728px] mx-auto">
+                <div class="w-full bg-white dark:bg-gray-900 border-x border-gray-100 dark:border-gray-800 box-content">
+                    <div class="px-3 md:px-16">
+                        <div class="flex flex-col min-h-screen">
+        
+                            <!-- Header -->
+                            <header class="text-center pt-6">
+                                <!-- Dark mode toggle -->
+                                <div class="flex justify-end mb-2">
+                                    <div class="inline-flex items-center justify-center ml-auto">
+                                        <input type="checkbox" name="light-switch" id="light-switch" class="light-switch sr-only" />
+                                        <label class="relative cursor-pointer p-2" for="light-switch">
+                                            <svg class="dark:hidden" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="fill-gray-300"
+                                                    d="M7 0h2v2H7zM12.88 1.637l1.414 1.415-1.415 1.413-1.413-1.414zM14 7h2v2h-2zM12.95 14.433l-1.414-1.413 1.413-1.415 1.415 1.414zM7 14h2v2H7zM2.98 14.364l-1.413-1.415 1.414-1.414 1.414 1.415zM0 7h2v2H0zM3.05 1.706 4.463 3.12 3.05 4.535 1.636 3.12z" />
+                                                <path class="fill-gray-400"
+                                                    d="M8 4C5.8 4 4 5.8 4 8s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4Z" />
+                                            </svg>
+                                            <svg class="hidden dark:block" width="16" height="16"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="fill-gray-500"
+                                                    d="M6.2 1C3.2 1.8 1 4.6 1 7.9 1 11.8 4.2 15 8.1 15c3.3 0 6-2.2 6.9-5.2C9.7 11.2 4.8 6.3 6.2 1Z" />
+                                                <path class="fill-gray-400"
+                                                    d="M12.5 5a.625.625 0 0 1-.625-.625 1.252 1.252 0 0 0-1.25-1.25.625.625 0 1 1 0-1.25 1.252 1.252 0 0 0 1.25-1.25.625.625 0 1 1 1.25 0c.001.69.56 1.249 1.25 1.25a.625.625 0 1 1 0 1.25c-.69.001-1.249.56-1.25 1.25A.625.625 0 0 1 12.5 5Z" />
+                                            </svg>
+                                            <span class="sr-only">Switch to light / dark version</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Intro -->
+                                <div class="mb-10">
+                                    <!-- <img class="inline-flex rounded-full shadow-lg mb-4" src="./images/user-image.jpg" width="48" height="48" alt="Jordan Walker" /> -->
+                                    <div class="mb-5">
+                                        <h1 class="font-inter-tight font-bold text-gray-800 dark:text-gray-100 text-2xl mb-1">Sai Bhavani</h1>
+                                        <p class="font-inter-tight font-bold text-gray-600 dark:text-gray-100">Software Developer</p>
+                                        <p class="text-sm text-gray-600 dark:text-gray-400">Front-End Developer, Back-End Developer</p>
+                                    </div>
+                                    <a class="btn-sm text-gray-200 dark:text-gray-800 bg-gradient-to-r from-gray-800 to-gray-700 dark:from-gray-300 dark:to-gray-100 dark:hover:bg-gray-100 shadow relative before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white/.2)_50%,transparent_75%,transparent_100%)] dark:before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] before:bg-[position:200%_0,0_0] before:bg-no-repeat before:[transition:background-position_0s_ease] hover:before:bg-[position:-100%_0,0_0] hover:before:duration-[1500ms]" href="mailto:saibhavani322@gmail.com" target="_blank">Let's connect</a>
+                                </div>
+                                <div class="group flex justify-center gap-4">
+                                    <img class="rounded-xl even:rotate-2 odd:-rotate-2 group-hover:rotate-0 transition duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] shadow-lg" src="./images/header-image-01.jpg" width="245" height="160" alt="Header 01" />
+                                    <!-- <img class="rounded-xl even:rotate-2 odd:-rotate-2 group-hover:rotate-0 transition duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] shadow-lg" src="./images/header-image-02.jpg" width="245" height="160" alt="Header 02" /> -->
+                                    <img class="rounded-xl even:rotate-2 odd:-rotate-2 group-hover:rotate-0 transition duration-300 ease-[cubic-bezier(.5,.85,.25,1.8)] shadow-lg" src="./images/header-image-03.jpg" width="245" height="160" alt="Header 03" />
+                                </div>
+                            </header>
+        
+                            <!-- Content -->
+                            <main class="grow py-12 space-y-12">
+        
+                                <!-- Experience -->
+                                <section>
+                                    <h2 class="font-inter-tight text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6">Experience</h2>
+                                    <div class="space-y-1">
+                                        <!-- Post #1 -->
+                                        <article class="p-5 rounded-xl odd:bg-gradient-to-tr odd:from-gray-100 odd:to-gray-50 dark:odd:bg-gradient-to-tr dark:odd:from-gray-800 dark:odd:to-gray-800/[0.65]">
+                                            <div class="sm:flex gap-5">
+                                                <div class="shrink-0 w-10 h-10 rounded-full flex items-center justify-center bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600/[0.65] shadow-sm max-sm:mb-3 sm:mt-5">
+                                                    <img src="https://demo.examtrakker.com/assets/Exam%20Trakker_Final%20File-01-01.svg" width="24" height="17" alt="" />
+                                                </div>
+                                                <div>
+                                                    <div class="space-y-1.5 mb-3">
+                                                        <div class="text-[13px] italic text-gray-500/70">Aug 2024 - Sep 2024</div>
+                                                        <h3 class="font-semibold text-gray-800 dark:text-gray-100">
+                                                            <a class="hover:underline decoration-2 decoration-gray-300 dark:decoration-gray-600 underline-offset-2" href="https://www.fao.org/home/en" target="_blank">Web Developer at Exam Trakker</a>
+                                                        </h3>
+                                                        <!-- <div class="text-[13px] font-medium text-gray-600dark:text-gray-400">Rome, Italy</div> -->
+                                                    </div>
+                                                    <p class="text-sm text-gray-600 dark:text-gray-400">Developed reusable components and leveraged MVC component-based architecture to achieve code modularity,
+                                                        resulting in a 20% increase in development efficiency and easier maintenance. </p>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        
+                                    </div>
+                                </section>
+        
+                               
+                                <section>
+                                    <h2 class="font-inter-tight text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6">Projects</h2>
+                                    <div class="space-y-4">
+                                        <!-- Project #1 -->
+                                        <article class="relative p-5 rounded-xl bg-gray-100 dark:bg-gray-800 group shadow-lg">
+                                            <div class="absolute top-5 right-7 text-gray-400 dark:text-gray-600 group-hover:text-gray-600 dark:group-hover:text-gray-400 group-hover:rotate-45 transition" aria-hidden="true">
+                                                <svg class="fill-current opacity-80 dark:opacity-100" xmlns="http://www.w3.org/2000/svg" width="10" height="10">
+                                                    <path d="M1.018 10 0 8.983l7.572-7.575H1.723L1.736 0H10v8.266H8.577l.013-5.841L1.018 10Z" />
+                                                </svg>
+                                            </div>
+                                            <!-- Project Title (with h2) -->
+                                            <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-100 mb-2">
+                                                <a class="before:absolute before:inset-0 hover:text-blue-500" href="https://medic.org/stories/continuous-discovery-how-we-create-a-better-cht-ui-ux/" target="_blank">Student Dashboard | NodeJS, ExpressJS, MongoDB</a>
+                                            </h2>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400"> 
+                                                • Developed a user-friendly web application using HTML/CSS, Node.js, and Express to automate students' tasks.<br>
+                                                • The project served 1000+ university students, allowing them to manage academic performance and track daily activities.<br>
+                                                • Helped administrators efficiently manage and communicate with students.
+                                            </p>
+                                        </article>
+                                
+                                        <!-- Project #2 -->
+                                        <article class="relative p-5 rounded-xl bg-gray-100 dark:bg-gray-800 group shadow-lg">
+                                            <div class="absolute top-5 right-7 text-gray-400 dark:text-gray-600 group-hover:text-gray-600 dark:group-hover:text-gray-400 group-hover:rotate-45 transition" aria-hidden="true">
+                                                <svg class="fill-current opacity-80 dark:opacity-100" xmlns="http://www.w3.org/2000/svg" width="10" height="10">
+                                                    <path d="M1.018 10 0 8.983l7.572-7.575H1.723L1.736 0H10v8.266H8.577l.013-5.841L1.018 10Z" />
+                                                </svg>
+                                            </div>
+                                            <!-- Project Title (with h2) -->
+                                            <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-100 mb-2">
+                                                <a class="before:absolute before:inset-0 hover:text-blue-500" href="https://medic.org/stories/continuous-discovery-how-we-create-a-better-cht-ui-ux/" target="_blank">User-Filter | HTML, CSS, JS</a>
+                                            </h2>
+                                            <p class="text-sm text-gray-600 dark:text-gray-400"> 
+                                                • Real-time filtering system for users based on multiple criteria (e.g., name, age, location), with live updates.<br>
+                                                • Search functionality allows users to quickly find specific users by name, email, or other attributes.<br>
+                                                • Built using HTML, CSS, and JavaScript to provide a fast and intuitive user experience.
+                                            </p>
+                                        </article>
+                                    </div>
+                                </section>
+                                
+                                
+                               
+                                <
+                                <!-- Newsletter -->
+                                 <section>
+                                    <h2 class="font-inter-tight text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6">Let's Connect</h2>
+                                    <div class="p-5 rounded-xl bg-gradient-to-tr from-gray-100 to-gray-50 dark:bg-gradient-to-tr dark:from-gray-800 dark:to-gray-800/[0.65]">
+                                        <form>
+                                            <div class="flex bg-white dark:bg-gray-900 p-2 rounded-lg focus-within:ring-2 ring-gray-300 dark:ring-gray-600">
+                                                <input class="flex-1 text-sm bg-transparent text-gray-800 dark:text-gray-100 placeholder:text-gray-400 dark:placeholder:text-gray-600 border-none focus:ring-0 focus:outline-none" type="email" name="email" aria-label="Enter your email to subscribe my newsletter" placeholder="Enter your email..." autocomplete="off" />
+                                                <button class="btn-sm text-gray-200 dark:text-gray-800 bg-gradient-to-r from-gray-800 to-gray-700 dark:from-gray-300 dark:to-gray-100 dark:hover:bg-gray-100 shadow relative before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white/.2)_50%,transparent_75%,transparent_100%)] dark:before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] before:bg-[position:200%_0,0_0] before:bg-no-repeat before:[transition:background-position_0s_ease] hover:before:bg-[position:-100%_0,0_0] hover:before:duration-[1500ms]">Join </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </section>
+        
+                            </main>
+        
+                            <!-- Footer -->
+                            <footer class="space-y-12 text-center pb-16">
+                                <!-- Initials logo -->
+                                <div style="display: flex; justify-content: center; align-items: center;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-sPuAmTenoUxhfbJfJO9CooAiutgwFZTWYVcQ-7U__8BAH1w4w6H89vqueMyRAKQjon8&usqp=CAU" alt="Image" />
+                                </div>
+                                
+                                <div class="space-y-6">
+                                    <!-- Social icons -->
+                                    <ul class="inline-flex gap-4">
+                                        <li>
+                                            <a class="w-8 h-8 rounded-full flex items-center justify-center bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600/[0.65] shadow-sm text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100 transition-colors" href="https://www.linkedin.com/in/sai-bhavani-6a0a95287/" target="_blank" aria-label="LinkedIn">
+                                                
+                                                
+                                                <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>Linkedin</title>
+                                                    <g id="Icon/Social/linkedin-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <path d="M20.9716667,33.5527338 L25.001,33.5527338 L25.001,27.1328007 C25.001,25.439485 25.3213333,23.7988354 27.4206667,23.7988354 C29.491,23.7988354 29.517,25.7351486 29.517,27.2404662 L29.517,33.5527338 L33.5506667,33.5527338 L33.5506667,26.4341413 C33.5506667,22.9381777 32.796,20.2505391 28.711,20.2505391 C26.7483333,20.2505391 25.432,21.3265278 24.8943333,22.3471839 L24.839,22.3471839 L24.839,20.5725357 L20.9716667,20.5725357 L20.9716667,33.5527338 Z M16.423,14.1202696 C15.1273333,14.1202696 14.0823333,15.1682587 14.0823333,16.4595785 C14.0823333,17.7508984 15.1273333,18.7992208 16.423,18.7992208 C17.7133333,18.7992208 18.761,17.7508984 18.761,16.4595785 C18.761,15.1682587 17.7133333,14.1202696 16.423,14.1202696 L16.423,14.1202696 Z M14.4026667,33.5527338 L18.4406667,33.5527338 L18.4406667,20.5725357 L14.4026667,20.5725357 L14.4026667,33.5527338 Z M9.76633333,40 C8.79033333,40 8,39.2090082 8,38.2336851 L8,9.76631493 C8,8.79065843 8.79033333,8 9.76633333,8 L38.234,8 C39.2093333,8 40,8.79065843 40,9.76631493 L40,38.2336851 C40,39.2090082 39.2093333,40 38.234,40 L9.76633333,40 Z" id="Shape" fill="#000000"></path>
+                                                    </g>
+                                                </svg>                           
+
+                                                                                           
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="w-8 h-8 rounded-full flex items-center justify-center bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600/[0.65] shadow-sm text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100 transition-colors" href="https://github.com/saibhavani-git/" target="_blank" aria-label="GitHub">
+                                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path d="M7.95 0C3.578 0 0 3.578 0 7.95c0 3.479 2.286 6.46 5.466 7.553.397.1.497-.199.497-.397v-1.392c-2.187.497-2.683-.994-2.683-.994-.398-.894-.895-1.192-.895-1.192-.696-.497.1-.497.1-.497.795.1 1.192.795 1.192.795.696 1.292 1.888.894 2.286.696.1-.497.298-.895.497-1.093-1.79-.2-3.578-.895-3.578-3.976 0-.894.298-1.59.795-2.087-.1-.198-.397-.993.1-2.086 0 0 .695-.2 2.186.795a6.408 6.408 0 0 1 1.987-.299c.696 0 1.392.1 1.988.299 1.49-.994 2.186-.796 2.186-.796.398 1.094.199 1.889.1 2.087.496.597.795 1.292.795 2.087 0 3.081-1.889 3.677-3.677 3.876.298.398.596.895.596 1.59v2.187c0 .198.1.496.596.397C13.714 14.41 16 11.43 16 7.95 15.9 3.578 12.323 0 7.95 0Z" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="w-8 h-8 rounded-full flex items-center justify-center bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600/[0.65] shadow-sm text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100 transition-colors" href="mailto:saibhavani322@example.com" target="_blank" aria-label="Dribbble">
+                                                <svg viewBox="0 0 8 6" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path d="m0 0h8v6h-8zm.75 .75v4.5h6.5v-4.5zM0 0l4 3 4-3v1l-4 3-4-3z"/>
+                                                </svg>
+                                                
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- Copyright notes -->
+                                    <p class="text-sm text-gray-400 dark:text-gray-600">&copy; Sai Bhavani. 2024</p>
+                                </div>
+                            </footer>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/vendors/alpinejs.min.js" defer></script>
+        <script src="./js/main.js"></script>
+
+    </body>
+
+</html>
